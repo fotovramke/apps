@@ -1,0 +1,22 @@
+<odoo noupdate="1">
+    <record id="action_z_report" model="ir.actions.report">
+        <field name="name">Print Report</field>
+        <field name="model">kw.checkbox.z.reports</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">kw_checkbox.z_report</field>
+        <field name="report_file">kw_checkbox.z_report</field>
+        <field name="print_report_name">'Z-report'</field>
+        <field name="binding_model_id" ref="model_kw_checkbox_z_reports"/>
+        <field name="binding_type">report</field>
+    </record>
+    <record id="action_x_report" model="ir.actions.report">
+        <field name="name">Print Report</field>
+        <field name="model">kw.checkbox.x.reports</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">kw_checkbox.x_report</field>
+        <field name="report_file">kw_checkbox.x_report</field>
+        <field name="print_report_name">'X-report'</field>
+        <field name="binding_model_id" ref="model_kw_checkbox_x_reports"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>
